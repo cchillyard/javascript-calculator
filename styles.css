@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #17a2b8;
+}
+
+h1 {
+  font-family: 'Oleo Script', cursive;
+  margin-top: 10px;
+  color: #fff;
+}
+
+button {
+  height: 50px;
+  border: none;
+}
+
+.calculator {
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #6c757d;
+  padding: 5px;
+}
+
+.buttons {
+  width: 275px;
+  text-align: center;
+  margin:10px auto;
+}
+
+.button{
+  float: left;
+  margin: 2px;
+  width: 64.75px;
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+.textbox {
+  margin-top: 10px;
+  text-align: right;
+  border: none;
+  height: 25px;
+  width: 275px;
+  background-color: #eee;
+}
